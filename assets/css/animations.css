@@ -8,6 +8,7 @@
 }
 
 .display-4{
+    color: white;
     text-align: center;
 }
   
@@ -41,6 +42,7 @@ div.item img {
   
 div.item i {
     transform: translate(-50%, -50%) scale(0);
+    transition: transform 500ms 0ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -91,7 +93,7 @@ div.item:hover img {
   } 
   
 div.item * {
-      transition: all 0.5s ease-in-out;
+      transition: all 0.35s ease-in-out;
   }
 
 /* div.item i {
@@ -100,7 +102,7 @@ div.item * {
 
 div.item:hover i {
     transform: translate(-50%, -50%) scale(1);
-    
+    transition: transform 500ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 
