@@ -1,7 +1,7 @@
 /* Animated Gallery */
 
 .container {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
   }
 
@@ -290,7 +290,7 @@ div.item:hover i {
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    background-color: #f19307;
+    background-color: red;
     display: inline-flex;
     margin: 35px 5px;
 }
@@ -319,11 +319,112 @@ div.item:hover i {
         transform: translateY(0);
     }
     100% {
-        transform: translateY(0);
-        background-color: black;
+        transform: translateY(0) scale(1.5);
+        background-color: pink;
     }
 }
 
+.loader7:before, .loader7:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 10px);
+    background-color: #3498db;
+    animation: squaremove 1s ease-in-out infinite;
+  }
+  
+  .loader7:after{
+    bottom: 0;
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes squaremove{
+    0%, 100%{
+      transform: translate(0,0) rotate(0);
+    }
+  
+    25%{
+      transform: translate(40px,40px) rotate(45deg);
+    }
+  
+    50%{
+      transform: translate(0px,80px) rotate(0deg);
+    }
+  
+    75%{
+      transform: translate(-40px,40px) rotate(45deg);
+    }
+  }
+
+  .loader8:before, .loader8:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 10px);
+    background-color: red;
+    animation: squaremove 1s ease-in-out infinite;
+  }
+  
+  .loader8:after{
+    bottom: 0;
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes squaremove{
+    0%, 100%{
+      transform: translate(0,0) rotate(0);
+    }
+  
+    25%{
+      transform: translate(40px,40px) rotate(45deg);
+    }
+  
+    50%{
+      transform: translate(0px,80px) rotate(0deg);
+    }
+  
+    75%{
+      transform: translate(-40px,40px) rotate(45deg);
+    }
+  }
+
+  .loader9:before, .loader9:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 10px);
+    background-color: greenyellow;
+    animation: squaremove 1s ease-in-out infinite;
+  }
+  
+  .loader9:after{
+    bottom: 0;
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes squaremove{
+    0%, 100%{
+      transform: translate(0,0) rotate(0);
+    }
+  
+    25%{
+      transform: translate(40px,40px) rotate(45deg);
+    }
+  
+    50%{
+      transform: translate(0px,80px) rotate(0deg);
+    }
+  
+    75%{
+      transform: translate(-40px,40px) rotate(45deg);
+    }
+  }
 
 
 
