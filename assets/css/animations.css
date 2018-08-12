@@ -106,6 +106,7 @@ div.item:hover i {
 
 /* Loading Icon */
 
+
 .header-logo {
     font-family: Helvetica, Sans-serif; 
     color: #2c3e50;
@@ -195,7 +196,25 @@ div.item:hover i {
         border-top-color: black;
         border-bottom-color:black; 
     }
+}
 
+.loader4 {
+    text-align: center;
+}
+
+.loader4 span {
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #3498db;
+    display: inline-flex;
+    margin: 35px 5px;
+}
+
+#dots {
+    padding-top: 50px;
+    justify-content: center;
 }
 
 /* .back{
