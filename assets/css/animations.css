@@ -366,7 +366,7 @@ div.item:hover i {
     top: 0;
     left: calc(50% - 10px);
     background-color: red;
-    animation: squaremove 1s ease-in-out infinite;
+    animation: squaremove8 1s ease-in-out infinite;
   }
   
   .loader8:after{
@@ -374,13 +374,13 @@ div.item:hover i {
     animation-delay: 0.5s;
   }
   
-  @keyframes squaremove{
+  @keyframes squaremove8{
     0%, 100%{
       transform: translate(0,0) rotate(0);
     }
   
     25%{
-      transform: translate(40px,40px) rotate(45deg);
+      transform: translate(40px,40px) rotate(45deg) scale(1.5);
     }
   
     50%{
@@ -400,7 +400,7 @@ div.item:hover i {
     top: 0;
     left: calc(50% - 10px);
     background-color: greenyellow;
-    animation: squaremove 1s ease-in-out infinite;
+    animation: squaremove9 1s ease-in-out infinite;
   }
   
   .loader9:after{
@@ -408,13 +408,14 @@ div.item:hover i {
     animation-delay: 0.5s;
   }
   
-  @keyframes squaremove{
+  @keyframes squaremove9{
     0%, 100%{
       transform: translate(0,0) rotate(0);
     }
   
     25%{
       transform: translate(40px,40px) rotate(45deg);
+      background-color: #34495e;
     }
   
     50%{
