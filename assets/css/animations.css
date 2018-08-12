@@ -217,6 +217,10 @@ div.item:hover i {
     justify-content: center;
 }
 
+.back{
+    margin: auto;
+}
+
 /* .back{
     justify-content: center;
     background-color: #eee;
